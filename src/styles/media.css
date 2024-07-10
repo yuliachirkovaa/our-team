@@ -1,0 +1,127 @@
+@media (max-width: 1115px) {
+  .container--info {
+    padding: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 32px;
+  }
+
+  .top__title--userpage {
+    font-size: 36px;
+  }
+
+  .top__text--userpage {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 790px) {
+  .container {
+    padding: 20px 20px 55px 20px;
+    gap: 30px;
+  }
+
+  .container--userpage {
+    padding-bottom: 64px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 6px;
+  }
+
+  .container--info {
+    padding: 31px 20px 55px 16px;
+    gap: 33px;
+  }
+
+  .top__title {
+    font-size: 36px;
+  }
+
+  .top__text {
+    font-size: 16px;
+  }
+
+  .top__text--userpage {
+    font-size: 20px;
+  }
+
+  .top__user {
+    margin: 0;
+    padding: 25px 0 0 0;
+    -webkit-box-ordinal-group: 101;
+        -ms-flex-order: 100;
+            order: 100;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 6px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .top__content--userpage {
+    text-align: center;
+  }
+
+  .top__content--userpage {
+    padding: 0;
+  }
+
+  .btn--back {
+    margin-right: calc(100% - 200px);
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding-bottom: 32px;
+  }
+
+  .descr {
+    line-height: 1.365;
+  }
+
+  .btn--icon {
+    padding: 3px 7px;
+    border: none;
+  }
+
+  .btn--icon:hover,
+  .btn--icon:focus,
+  .btn--icon:active {
+  color: transparent;
+  background-color: transparent;
+  }
+
+  .btn--back {
+    margin-right: calc(100% - 63px);
+  }
+
+  .escape-text {
+    display: none;
+  }
+
+  .escape-icon {
+    display: block;
+    fill: #F8F8F8;
+  }
+
+  .back-text {
+    display: none;
+  }
+
+  .back-icon {
+    display: block;
+    fill: #F8F8F8;
+  }
+}

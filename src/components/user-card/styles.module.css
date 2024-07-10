@@ -1,0 +1,77 @@
+.wrapper {
+  position: relative;
+}
+
+.card {
+  width: 305px;
+  padding: 36px 36px 64px 36px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 3.98px 0px #33333326;
+          box-shadow: 0px 1px 3.98px 0px #33333326;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+}
+
+a:hover .card,
+a:focus .card,
+a:active .card {
+  border-color: #000000;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 14px;
+}
+
+.user__avatar {
+  width: 124px;
+  height: 124px;
+  border-radius: 100%;
+}
+
+.user__name {
+  margin: 0;
+  color: #151317;
+  font-size: 20px;
+  line-height: 1.17;
+}
+
+.like {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0;
+  line-height: 0;
+  background-color: #F8F8F8;
+  z-index: 10;
+}
+
+.like__heart {
+  stroke: #151317;
+  fill: transparent;
+}
+
+@media (max-width: 790px) {
+  .card {
+    width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 305px;
+  }
+}
